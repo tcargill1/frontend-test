@@ -3,12 +3,30 @@ body {
     background-color: black;
 }
 
+.title {
+    text-align: center;
+}
+
+.explore {
+    text-align: center;
+}
+
 .trailer {
     color: rgb(255, 204, 0);
 }
 
 .max {
     color: rgb(255, 204, 0);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 .mini_border {
