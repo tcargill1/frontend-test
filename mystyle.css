@@ -15,6 +15,7 @@ body {
     border: 2px solid rgb(255, 204, 0);
     border-radius: 50px;
 
+    /* Displays this class as a button to fit content and set it in middle of page */
     display: block;
     width: fit-content;
     margin: auto;
@@ -36,11 +37,12 @@ body {
 }
 
 .main {
+    /* Displays main four sections into a grid with 2 centered columns */
     display: grid;
     grid-template-columns: repeat(2, 400px);
     gap: 20px;
     justify-content: center;
-    
+
     width: 100px;
     margin: 0 auto;
     padding: 20px;
@@ -52,11 +54,13 @@ body {
     border-radius: 10px;
     padding: 20px;
 
+    /* To create the white outline in bottom left of each border in grid */
     border-bottom: 2px solid white;
     border-left: 2px solid white;
 }
 
 .double_deck {
+    /* Adds the image and fits it in the border, then dims it so the text is readable */
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(red-semi-truck.jpg);
     background-size: cover;
     background-position: center;
