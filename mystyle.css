@@ -28,3 +28,21 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.step_deck {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(step-deck-trailer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.goose_neck {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(gooseneck-trailer.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.flatbed {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(flatbed-truck.jpg);
+    background-size: cover;
+    background-position: center;
+}
