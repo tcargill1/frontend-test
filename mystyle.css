@@ -1,0 +1,30 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.trailer {
+    color: rgb(255, 204, 0);
+}
+
+.max {
+    color: rgb(255, 204, 0);
+}
+
+.mini_border {
+    border: 2px solid transparent;
+
+    border-radius: 10px;
+    padding: 20px;
+
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+
+    margin-bottom: 50px;
+}
+
+.double_deck {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(red-semi-truck.jpg);
+    background-size: cover;
+    background-position: center;
+}
