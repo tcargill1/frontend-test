@@ -8,7 +8,23 @@ body {
 }
 
 .explore {
+    color: black;
+    background-color: rgb(255, 204, 0);
     text-align: center;
+
+    border: 2px solid rgb(255, 204, 0);
+    border-radius: 50px;
+
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.explore:hover {
+    background-color: rgb(230, 184, 0);
+    cursor: pointer;
 }
 
 .trailer {
@@ -24,9 +40,10 @@ body {
     grid-template-columns: repeat(2, 400px);
     gap: 20px;
     justify-content: center;
-    padding: 40px;
+    
     width: 100px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .mini_border {
@@ -37,8 +54,6 @@ body {
 
     border-bottom: 2px solid white;
     border-left: 2px solid white;
-
-    margin-bottom: 50px;
 }
 
 .double_deck {
